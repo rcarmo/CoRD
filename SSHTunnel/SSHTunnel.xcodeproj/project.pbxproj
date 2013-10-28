@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152F7BA21412F1D60045CB4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 152F7BA01412F1D60045CB4B /* InfoPlist.strings */; };
+		152F7BA61412F1D60045CB4B /* SSHTunnel.m in Sources */ = {isa = PBXBuildFile; fileRef = 152F7BA51412F1D60045CB4B /* SSHTunnel.m */; };
+		152F7BAD1412F29D0045CB4B /* SSHTunnelDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 152F7BAC1412F29D0045CB4B /* SSHTunnelDebug.h */; };
+		152F7BB71412F33E0045CB4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152F7BB61412F33E0045CB4B /* Foundation.framework */; };
+		152F7BC61412F3E20045CB4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152F7BB61412F33E0045CB4B /* Foundation.framework */; };
+		152F7BC91412F4780045CB4B /* SSHTunnelHelper in Resources */ = {isa = PBXBuildFile; fileRef = 152F7BB41412F33E0045CB4B /* SSHTunnelHelper */; };
+		152F7BCA1412F6180045CB4B /* SSHTunnel.h in Headers */ = {isa = PBXBuildFile; fileRef = 152F7BA41412F1D60045CB4B /* SSHTunnel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15C9812514152D9C00DCF796 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C9812414152D9C00DCF796 /* Cocoa.framework */; };
+		15C9813D14152DBB00DCF796 /* SSHTunnel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152F7B941412F1D60045CB4B /* SSHTunnel.framework */; };
+		15C9813F14152DC500DCF796 /* SSHTunnel.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 152F7B941412F1D60045CB4B /* SSHTunnel.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		152F7BC71412F4600045CB4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152F7B8A1412F1D60045CB4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152F7BB31412F33E0045CB4B;
+			remoteInfo = SSHTunnelHelper;
+		};
+		15C9813B14152DB500DCF796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152F7B8A1412F1D60045CB4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152F7B931412F1D60045CB4B;
+			remoteInfo = SSHTunnel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		152F7BB21412F33E0045CB4B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		15C9813E14152DBF00DCF796 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				15C9813F14152DC500DCF796 /* SSHTunnel.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		152F7B941412F1D60045CB4B /* SSHTunnel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSHTunnel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		152F7B971412F1D60045CB4B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		152F7B9A1412F1D60045CB4B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		152F7B9B1412F1D60045CB4B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		152F7B9C1412F1D60045CB4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		152F7B9F1412F1D60045CB4B /* SSHTunnel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSHTunnel-Info.plist"; sourceTree = "<group>"; };
+		152F7BA11412F1D60045CB4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		152F7BA31412F1D60045CB4B /* SSHTunnel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSHTunnel-Prefix.pch"; sourceTree = "<group>"; };
+		152F7BA41412F1D60045CB4B /* SSHTunnel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSHTunnel.h; sourceTree = "<group>"; };
+		152F7BA51412F1D60045CB4B /* SSHTunnel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSHTunnel.m; sourceTree = "<group>"; };
+		152F7BAC1412F29D0045CB4B /* SSHTunnelDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHTunnelDebug.h; sourceTree = "<group>"; };
+		152F7BB41412F33E0045CB4B /* SSHTunnelHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SSHTunnelHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		152F7BB61412F33E0045CB4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15C9812214152D9C00DCF796 /* SSHTunnelTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSHTunnelTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C9812414152D9C00DCF796 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		152F7B901412F1D60045CB4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152F7BC61412F3E20045CB4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152F7BB11412F33E0045CB4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152F7BB71412F33E0045CB4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C9811F14152D9C00DCF796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C9812514152D9C00DCF796 /* Cocoa.framework in Frameworks */,
+				15C9813D14152DBB00DCF796 /* SSHTunnel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152F7B881412F1D60045CB4B = {
+			isa = PBXGroup;
+			children = (
+				152F7B9D1412F1D60045CB4B /* SSHTunnel */,
+				152F7B961412F1D60045CB4B /* Frameworks */,
+				152F7B951412F1D60045CB4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		152F7B951412F1D60045CB4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				152F7B941412F1D60045CB4B /* SSHTunnel.framework */,
+				152F7BB41412F33E0045CB4B /* SSHTunnelHelper */,
+				15C9812214152D9C00DCF796 /* SSHTunnelTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		152F7B961412F1D60045CB4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				152F7BB61412F33E0045CB4B /* Foundation.framework */,
+				15C9812414152D9C00DCF796 /* Cocoa.framework */,
+				152F7B991412F1D60045CB4B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		152F7B991412F1D60045CB4B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				152F7B9A1412F1D60045CB4B /* AppKit.framework */,
+				152F7B971412F1D60045CB4B /* Cocoa.framework */,
+				152F7B9B1412F1D60045CB4B /* CoreData.framework */,
+				152F7B9C1412F1D60045CB4B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		152F7B9D1412F1D60045CB4B /* SSHTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				152F7BA41412F1D60045CB4B /* SSHTunnel.h */,
+				152F7BA51412F1D60045CB4B /* SSHTunnel.m */,
+				152F7BAC1412F29D0045CB4B /* SSHTunnelDebug.h */,
+				152F7B9E1412F1D60045CB4B /* Supporting Files */,
+			);
+			path = SSHTunnel;
+			sourceTree = "<group>";
+		};
+		152F7B9E1412F1D60045CB4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				152F7B9F1412F1D60045CB4B /* SSHTunnel-Info.plist */,
+				152F7BA01412F1D60045CB4B /* InfoPlist.strings */,
+				152F7BA31412F1D60045CB4B /* SSHTunnel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		152F7B911412F1D60045CB4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152F7BCA1412F6180045CB4B /* SSHTunnel.h in Headers */,
+				152F7BAD1412F29D0045CB4B /* SSHTunnelDebug.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		152F7B931412F1D60045CB4B /* SSHTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152F7BA91412F1D60045CB4B /* Build configuration list for PBXNativeTarget "SSHTunnel" */;
+			buildPhases = (
+				152F7B8F1412F1D60045CB4B /* Sources */,
+				152F7B901412F1D60045CB4B /* Frameworks */,
+				152F7B911412F1D60045CB4B /* Headers */,
+				152F7B921412F1D60045CB4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152F7BC81412F4600045CB4B /* PBXTargetDependency */,
+			);
+			name = SSHTunnel;
+			productName = SSHTunnel;
+			productReference = 152F7B941412F1D60045CB4B /* SSHTunnel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		152F7BB31412F33E0045CB4B /* SSHTunnelHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152F7BBF1412F33E0045CB4B /* Build configuration list for PBXNativeTarget "SSHTunnelHelper" */;
+			buildPhases = (
+				152F7BB01412F33E0045CB4B /* Sources */,
+				152F7BB11412F33E0045CB4B /* Frameworks */,
+				152F7BB21412F33E0045CB4B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSHTunnelHelper;
+			productName = SSHTunnelHelper;
+			productReference = 152F7BB41412F33E0045CB4B /* SSHTunnelHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+		15C9812114152D9C00DCF796 /* SSHTunnelTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C9813814152D9C00DCF796 /* Build configuration list for PBXNativeTarget "SSHTunnelTester" */;
+			buildPhases = (
+				15C9811E14152D9C00DCF796 /* Sources */,
+				15C9811F14152D9C00DCF796 /* Frameworks */,
+				15C9812014152D9C00DCF796 /* Resources */,
+				15C9813E14152DBF00DCF796 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C9813C14152DB500DCF796 /* PBXTargetDependency */,
+			);
+			name = SSHTunnelTester;
+			productName = SSHTunnelTester;
+			productReference = 15C9812214152D9C00DCF796 /* SSHTunnelTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		152F7B8A1412F1D60045CB4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = 152F7B8D1412F1D60045CB4B /* Build configuration list for PBXProject "SSHTunnel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 152F7B881412F1D60045CB4B;
+			productRefGroup = 152F7B951412F1D60045CB4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				152F7B931412F1D60045CB4B /* SSHTunnel */,
+				152F7BB31412F33E0045CB4B /* SSHTunnelHelper */,
+				15C9812114152D9C00DCF796 /* SSHTunnelTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		152F7B921412F1D60045CB4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152F7BC91412F4780045CB4B /* SSHTunnelHelper in Resources */,
+				152F7BA21412F1D60045CB4B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C9812014152D9C00DCF796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		152F7B8F1412F1D60045CB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152F7BA61412F1D60045CB4B /* SSHTunnel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152F7BB01412F33E0045CB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C9811E14152D9C00DCF796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		152F7BC81412F4600045CB4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152F7BB31412F33E0045CB4B /* SSHTunnelHelper */;
+			targetProxy = 152F7BC71412F4600045CB4B /* PBXContainerItemProxy */;
+		};
+		15C9813C14152DB500DCF796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152F7B931412F1D60045CB4B /* SSHTunnel */;
+			targetProxy = 15C9813B14152DB500DCF796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		152F7BA01412F1D60045CB4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				152F7BA11412F1D60045CB4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		152F7BA71412F1D60045CB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_STRICT_ALIASING = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.8;
+			};
+			name = Debug;
+		};
+		152F7BA81412F1D60045CB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_STRICT_ALIASING = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.8;
+			};
+			name = Release;
+		};
+		152F7BAA1412F1D60045CB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSHTunnel/SSHTunnel-Prefix.pch";
+				INFOPLIST_FILE = "SSHTunnel/SSHTunnel-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		152F7BAB1412F1D60045CB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSHTunnel/SSHTunnel-Prefix.pch";
+				INFOPLIST_FILE = "SSHTunnel/SSHTunnel-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		152F7BC01412F33E0045CB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSHTunnelHelper/SSHTunnelHelper-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		152F7BC11412F33E0045CB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSHTunnelHelper/SSHTunnelHelper-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15C9813914152D9C00DCF796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSHTunnelTester/SSHTunnelTester-Prefix.pch";
+				INFOPLIST_FILE = "SSHTunnelTester/SSHTunnelTester-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15C9813A14152D9C00DCF796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSHTunnelTester/SSHTunnelTester-Prefix.pch";
+				INFOPLIST_FILE = "SSHTunnelTester/SSHTunnelTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		152F7B8D1412F1D60045CB4B /* Build configuration list for PBXProject "SSHTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152F7BA71412F1D60045CB4B /* Debug */,
+				152F7BA81412F1D60045CB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152F7BA91412F1D60045CB4B /* Build configuration list for PBXNativeTarget "SSHTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152F7BAA1412F1D60045CB4B /* Debug */,
+				152F7BAB1412F1D60045CB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152F7BBF1412F33E0045CB4B /* Build configuration list for PBXNativeTarget "SSHTunnelHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152F7BC01412F33E0045CB4B /* Debug */,
+				152F7BC11412F33E0045CB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C9813814152D9C00DCF796 /* Build configuration list for PBXNativeTarget "SSHTunnelTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C9813914152D9C00DCF796 /* Debug */,
+				15C9813A14152D9C00DCF796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 152F7B8A1412F1D60045CB4B /* Project object */;
+}

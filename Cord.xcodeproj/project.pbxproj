@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05CC8D51181EE02000067992 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 05CC8D31181EE02000067992 /* .gitignore */; };
+		05CC8D52181EE02000067992 /* isportinuse.sh in Resources */ = {isa = PBXBuildFile; fileRef = 05CC8D32181EE02000067992 /* isportinuse.sh */; };
+		05CC8D53181EE02000067992 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 05CC8D33181EE02000067992 /* License.txt */; };
+		05CC8D54181EE02000067992 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 05CC8D34181EE02000067992 /* README.markdown */; };
+		05CC8D55181EE02000067992 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05CC8D36181EE02000067992 /* InfoPlist.strings */; };
+		05CC8D56181EE02000067992 /* SSHTunnel-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05CC8D38181EE02000067992 /* SSHTunnel-Info.plist */; };
+		05CC8D57181EE02000067992 /* SSHTunnel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC8D3B181EE02000067992 /* SSHTunnel.m */; };
+		05CC8D58181EE02000067992 /* SSHTunnelHelper.1 in Resources */ = {isa = PBXBuildFile; fileRef = 05CC8D42181EE02000067992 /* SSHTunnelHelper.1 */; };
+		05CC8D59181EE02000067992 /* SSHTunnelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC8D43181EE02000067992 /* SSHTunnelHelper.m */; };
+		05CC8D5A181EE02000067992 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 05CC8D45181EE02000067992 /* Credits.rtf */; };
+		05CC8D5B181EE02000067992 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05CC8D47181EE02000067992 /* InfoPlist.strings */; };
+		05CC8D5C181EE02000067992 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05CC8D49181EE02000067992 /* MainMenu.xib */; };
+		05CC8D5D181EE02000067992 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC8D4B181EE02000067992 /* main.m */; };
+		05CC8D5E181EE02000067992 /* SSHTunnelTester-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05CC8D4C181EE02000067992 /* SSHTunnelTester-Info.plist */; };
+		05CC8D5F181EE02000067992 /* SSHTunnelTesterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC8D4F181EE02000067992 /* SSHTunnelTesterAppDelegate.m */; };
+		05CC8D60181EE02000067992 /* TODO.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 05CC8D50181EE02000067992 /* TODO.markdown */; };
 		2CC0C4D516AE8EBC0070A3B7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2CC0C4D716AE8EBC0070A3B7 /* Credits.rtf */; };
 		37344C210FB141D200DFD6E6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37344C200FB141D200DFD6E6 /* Security.framework */; };
 		37D191820FCE69E8008797FD /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D191810FCE69E8008797FD /* Carbon.framework */; };
@@ -100,6 +116,30 @@
 		9C8C825F15AB9BEA00A9C5F7 /* Previous-Template@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8C825D15AB9BEA00A9C5F7 /* Previous-Template@2x.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		05CC8D64181EE02100067992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CC8D3D181EE02000067992 /* SSHTunnel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 152F7B941412F1D60045CB4B;
+			remoteInfo = SSHTunnel;
+		};
+		05CC8D66181EE02100067992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CC8D3D181EE02000067992 /* SSHTunnel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 152F7BB41412F33E0045CB4B;
+			remoteInfo = SSHTunnelHelper;
+		};
+		05CC8D68181EE02100067992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CC8D3D181EE02000067992 /* SSHTunnel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 15C9812214152D9C00DCF796;
+			remoteInfo = SSHTunnelTester;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		3E70183E1153C7D4004D15CA /* Copy Quicklook Item */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -126,6 +166,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		05CC8D31181EE02000067992 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		05CC8D32181EE02000067992 /* isportinuse.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = isportinuse.sh; sourceTree = "<group>"; };
+		05CC8D33181EE02000067992 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		05CC8D34181EE02000067992 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		05CC8D37181EE02000067992 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05CC8D38181EE02000067992 /* SSHTunnel-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SSHTunnel-Info.plist"; sourceTree = "<group>"; };
+		05CC8D39181EE02000067992 /* SSHTunnel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSHTunnel-Prefix.pch"; sourceTree = "<group>"; };
+		05CC8D3A181EE02000067992 /* SSHTunnel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHTunnel.h; sourceTree = "<group>"; };
+		05CC8D3B181EE02000067992 /* SSHTunnel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHTunnel.m; sourceTree = "<group>"; };
+		05CC8D3C181EE02000067992 /* SSHTunnelDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHTunnelDebug.h; sourceTree = "<group>"; };
+		05CC8D3D181EE02000067992 /* SSHTunnel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SSHTunnel.xcodeproj; sourceTree = "<group>"; };
+		05CC8D41181EE02000067992 /* SSHTunnelHelper-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSHTunnelHelper-Prefix.pch"; sourceTree = "<group>"; };
+		05CC8D42181EE02000067992 /* SSHTunnelHelper.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = SSHTunnelHelper.1; sourceTree = "<group>"; };
+		05CC8D43181EE02000067992 /* SSHTunnelHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHTunnelHelper.m; sourceTree = "<group>"; };
+		05CC8D46181EE02000067992 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		05CC8D48181EE02000067992 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05CC8D4A181EE02000067992 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		05CC8D4B181EE02000067992 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05CC8D4C181EE02000067992 /* SSHTunnelTester-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SSHTunnelTester-Info.plist"; sourceTree = "<group>"; };
+		05CC8D4D181EE02000067992 /* SSHTunnelTester-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSHTunnelTester-Prefix.pch"; sourceTree = "<group>"; };
+		05CC8D4E181EE02000067992 /* SSHTunnelTesterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHTunnelTesterAppDelegate.h; sourceTree = "<group>"; };
+		05CC8D4F181EE02000067992 /* SSHTunnelTesterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHTunnelTesterAppDelegate.m; sourceTree = "<group>"; };
+		05CC8D50181EE02000067992 /* TODO.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.markdown; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -282,6 +345,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05CC8D30181EE02000067992 /* SSHTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				05CC8D31181EE02000067992 /* .gitignore */,
+				05CC8D32181EE02000067992 /* isportinuse.sh */,
+				05CC8D33181EE02000067992 /* License.txt */,
+				05CC8D34181EE02000067992 /* README.markdown */,
+				05CC8D35181EE02000067992 /* SSHTunnel */,
+				05CC8D3D181EE02000067992 /* SSHTunnel.xcodeproj */,
+				05CC8D40181EE02000067992 /* SSHTunnelHelper */,
+				05CC8D44181EE02000067992 /* SSHTunnelTester */,
+				05CC8D50181EE02000067992 /* TODO.markdown */,
+			);
+			path = SSHTunnel;
+			sourceTree = "<group>";
+		};
+		05CC8D35181EE02000067992 /* SSHTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				05CC8D36181EE02000067992 /* InfoPlist.strings */,
+				05CC8D38181EE02000067992 /* SSHTunnel-Info.plist */,
+				05CC8D39181EE02000067992 /* SSHTunnel-Prefix.pch */,
+				05CC8D3A181EE02000067992 /* SSHTunnel.h */,
+				05CC8D3B181EE02000067992 /* SSHTunnel.m */,
+				05CC8D3C181EE02000067992 /* SSHTunnelDebug.h */,
+			);
+			path = SSHTunnel;
+			sourceTree = "<group>";
+		};
+		05CC8D3E181EE02000067992 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05CC8D65181EE02100067992 /* SSHTunnel.framework */,
+				05CC8D67181EE02100067992 /* SSHTunnelHelper */,
+				05CC8D69181EE02100067992 /* SSHTunnelTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05CC8D40181EE02000067992 /* SSHTunnelHelper */ = {
+			isa = PBXGroup;
+			children = (
+				05CC8D41181EE02000067992 /* SSHTunnelHelper-Prefix.pch */,
+				05CC8D42181EE02000067992 /* SSHTunnelHelper.1 */,
+				05CC8D43181EE02000067992 /* SSHTunnelHelper.m */,
+			);
+			path = SSHTunnelHelper;
+			sourceTree = "<group>";
+		};
+		05CC8D44181EE02000067992 /* SSHTunnelTester */ = {
+			isa = PBXGroup;
+			children = (
+				05CC8D45181EE02000067992 /* Credits.rtf */,
+				05CC8D47181EE02000067992 /* InfoPlist.strings */,
+				05CC8D49181EE02000067992 /* MainMenu.xib */,
+				05CC8D4B181EE02000067992 /* main.m */,
+				05CC8D4C181EE02000067992 /* SSHTunnelTester-Info.plist */,
+				05CC8D4D181EE02000067992 /* SSHTunnelTester-Prefix.pch */,
+				05CC8D4E181EE02000067992 /* SSHTunnelTesterAppDelegate.h */,
+				05CC8D4F181EE02000067992 /* SSHTunnelTesterAppDelegate.m */,
+			);
+			path = SSHTunnelTester;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* CoRD */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +472,7 @@
 		29B97314FDCFA39411CA2CEA /* Cord */ = {
 			isa = PBXGroup;
 			children = (
+				05CC8D30181EE02000067992 /* SSHTunnel */,
 				3E70185B1153C91D004D15CA /* Library */,
 				44D2AE410AA761C000EA19A1 /* rdesktop */,
 				080E96DDFE201D6D7F000001 /* CoRD */,
@@ -584,6 +712,12 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Cord */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 05CC8D3E181EE02000067992 /* Products */;
+					ProjectRef = 05CC8D3D181EE02000067992 /* SSHTunnel.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* CoRD */,
@@ -591,20 +725,48 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		05CC8D65181EE02100067992 /* SSHTunnel.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SSHTunnel.framework;
+			remoteRef = 05CC8D64181EE02100067992 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05CC8D67181EE02100067992 /* SSHTunnelHelper */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SSHTunnelHelper;
+			remoteRef = 05CC8D66181EE02100067992 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05CC8D69181EE02100067992 /* SSHTunnelTester.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SSHTunnelTester.app;
+			remoteRef = 05CC8D68181EE02100067992 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		8D1107290486CEB800E47090 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05CC8D52181EE02000067992 /* isportinuse.sh in Resources */,
 				98E972D00BD9DA820041110D /* Clock icon.png in Resources */,
 				98E972D10BD9DA820041110D /* Disconnect.png in Resources */,
 				98E972D30BD9DA820041110D /* Fullscreen.png in Resources */,
 				98E972D40BD9DA820041110D /* i Button Face.png in Resources */,
+				05CC8D5E181EE02000067992 /* SSHTunnelTester-Info.plist in Resources */,
 				98E972D60BD9DA820041110D /* keymap.txt in Resources */,
+				05CC8D54181EE02000067992 /* README.markdown in Resources */,
 				98E972DA0BD9DA820041110D /* Servers.png in Resources */,
 				98E972DB0BD9DA820041110D /* Unified.png in Resources */,
 				98E972DC0BD9DA820041110D /* Windowed.png in Resources */,
 				98E972DD0BD9DA820041110D /* windows_keymap_table.txt in Resources */,
+				05CC8D5C181EE02000067992 /* MainMenu.xib in Resources */,
 				98E972E70BD9DA9F0041110D /* InfoPlist.strings in Resources */,
 				9816F0C00BEE506000E439BE /* Stop.png in Resources */,
 				98520EEC0BFEB77700DD732F /* Defaults.plist in Resources */,
@@ -612,18 +774,25 @@
 				2CC0C4D516AE8EBC0070A3B7 /* Credits.rtf in Resources */,
 				993AEC360FB136AB0031B013 /* MainMenu.xib in Resources */,
 				986A8BFA100EAE54006AFE36 /* dsa_pub.pem in Resources */,
+				05CC8D60181EE02000067992 /* TODO.markdown in Resources */,
 				9837E69B1013C29A0051ACB0 /* ConnectionDefaultsIcon.png in Resources */,
+				05CC8D5A181EE02000067992 /* Credits.rtf in Resources */,
+				05CC8D51181EE02000067992 /* .gitignore in Resources */,
 				98F2A7C410152DA800E1D5B5 /* CoRD Help in Resources */,
 				9997480D10A3C653000B8061 /* ForwardPrefs.png in Resources */,
 				9C8C824715AAF6DC00A9C5F7 /* Stop@2x.png in Resources */,
 				9C8C824915AAFEC300A9C5F7 /* ConnectionDefaultsIcon@2x.png in Resources */,
 				9C8C824B15AB0A4F00A9C5F7 /* Disconnect@2x.png in Resources */,
+				05CC8D56181EE02000067992 /* SSHTunnel-Info.plist in Resources */,
 				9C8C824D15AB187A00A9C5F7 /* ForwardPrefs@2x.png in Resources */,
 				9C8C824F15AB6CB400A9C5F7 /* Unified@2x.png in Resources */,
 				9C8C825115AB7D1100A9C5F7 /* Windowed@2x.png in Resources */,
 				9C8C825315AB850800A9C5F7 /* Fullscreen@2x.png in Resources */,
+				05CC8D55181EE02000067992 /* InfoPlist.strings in Resources */,
 				9C8C825515AB8BC200A9C5F7 /* i Button Face@2x.png in Resources */,
 				9C8C825715AB92C500A9C5F7 /* Clock icon@2x.png in Resources */,
+				05CC8D5B181EE02000067992 /* InfoPlist.strings in Resources */,
+				05CC8D58181EE02000067992 /* SSHTunnelHelper.1 in Resources */,
 				9C8C825915AB99A000A9C5F7 /* Next-Template@2x.png in Resources */,
 				9C8C825B15AB9B7600A9C5F7 /* Next-Template.png in Resources */,
 				9C8C825E15AB9BEA00A9C5F7 /* Previous-Template.png in Resources */,
@@ -632,6 +801,7 @@
 				98D5C67C15B5F5DE00012A4C /* CoRD.icns in Resources */,
 				98D5C68015B5F82300012A4C /* RDP Document File.icns in Resources */,
 				98D5C68115B5F82300012A4C /* RDP Document Gray.icns in Resources */,
+				05CC8D53181EE02000067992 /* License.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +834,7 @@
 				98E972620BD9D9DF0041110D /* cache.c in Sources */,
 				98E972630BD9D9DF0041110D /* channels.c in Sources */,
 				98E972640BD9D9DF0041110D /* cliprdr.c in Sources */,
+				05CC8D5D181EE02000067992 /* main.m in Sources */,
 				98E972680BD9D9DF0041110D /* CRDApplication.m in Sources */,
 				98E9726C0BD9D9DF0041110D /* CRDLabelCell.m in Sources */,
 				98E9726E0BD9D9DF0041110D /* CRDServerCell.m in Sources */,
@@ -688,7 +859,9 @@
 				9885D1940BFBBB0800C5451D /* printer.m in Sources */,
 				98E1B69A0C07D8AF007077D1 /* CRDSwappedModifiersUtility.m in Sources */,
 				9872FCD90C08FD8E00078CB2 /* CRDBitmap.m in Sources */,
+				05CC8D5F181EE02000067992 /* SSHTunnelTesterAppDelegate.m in Sources */,
 				9872FCDB0C08FD8E00078CB2 /* CRDKeyboard.m in Sources */,
+				05CC8D57181EE02000067992 /* SSHTunnel.m in Sources */,
 				9872FCDD0C08FD8E00078CB2 /* CRDSession.m in Sources */,
 				9872FCF40C08FE6800078CB2 /* CRDSessionView.m in Sources */,
 				9872FD5F0C0902DA00078CB2 /* CRDShared.m in Sources */,
@@ -702,6 +875,7 @@
 				3E4B676F1019E2D700D3A911 /* CRDFilePathLabelFormatter.m in Sources */,
 				3E4B67701019E2D700D3A911 /* CRDFilePathFormatter.m in Sources */,
 				99EF1FC310A0FB6900295ECF /* PFMoveApplication.m in Sources */,
+				05CC8D59181EE02000067992 /* SSHTunnelHelper.m in Sources */,
 				982212001128A03900936745 /* ssl.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -709,6 +883,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		05CC8D36181EE02000067992 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05CC8D37181EE02000067992 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05CC8D45181EE02000067992 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05CC8D46181EE02000067992 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		05CC8D47181EE02000067992 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05CC8D48181EE02000067992 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05CC8D49181EE02000067992 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05CC8D4A181EE02000067992 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 		2CC0C4D716AE8EBC0070A3B7 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
